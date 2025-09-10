@@ -1,0 +1,28 @@
+.Navbar {
+	display: flex;
+	flex-direction: column;
+	gap: 12px;
+	padding-top: 24px;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	width: max-content;
+	padding: 12px 32px;
+	border-radius: 12px;
+	background-color: var(--foreground);
+	color: var(--second-text);
+	font-family: var(--font-noto-sans);
+	font-size: 18px;
+}
+
+.link:hover {
+	color: var(--text);
+	box-shadow: 0 4px 10px 0 #00000026;
+}
+
+.link:hover svg {
+	stroke: var(--text)
+}

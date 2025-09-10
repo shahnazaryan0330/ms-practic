@@ -1,0 +1,14 @@
+.button {
+	width: max-content;
+	padding: 12px 32px;
+	border-radius: 12px;
+	color: var(--foreground);
+	font-family: var(--font-noto-sans);
+	font-size: 16px;
+	background-color: var(--orange);
+}
+
+.button:hover {
+	background-color: var(--orange-hover);
+	box-shadow: var(--box-shadow);
+}

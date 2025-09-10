@@ -1,0 +1,61 @@
+.form {
+	display: flex;
+	flex-direction: column;
+	gap: 24px;
+	padding: 24px;
+	border-radius: 16px;
+	background-color: var(--foreground);
+}
+
+.label {
+	color: var(--text);
+	font-family: var(--font-noto-sans);
+	font-size: 16px;
+}
+
+#login {
+	margin-top: 12px;
+	display: block;
+	padding: 8px 12px;
+	width: 380px;
+	outline: 1px solid var(--accent);
+	border-radius: 12px;
+	color: var(--text);
+	font-family: var(--font-fira-code);
+	font-size: 18px;
+	background-color: var(--background);
+}
+
+#login::placeholder {
+	color: var(--second-text);
+	font-size: 12px;
+}
+
+#login:focus {
+	outline: 2px solid var(--orange);
+}
+
+.infoList {
+	margin: 0;
+	padding: 12px 24px 12px 36px;
+	border-radius: 12px;
+	border: 1px solid #ffdda9;
+	font-family: var(--font-noto-sans);
+	font-size: 14px;
+	background-color: #fff7eb;
+}
+
+.button {
+	width: max-content;
+	padding: 8px 32px;
+	border-radius: 12px;
+	color: var(--foreground);
+	font-family: var(--font-noto-sans);
+	font-size: 16px;
+	background-color: var(--orange);
+}
+
+.button:hover {
+	background-color: var(--orange-hover);
+	box-shadow: var(--box-shadow);
+}

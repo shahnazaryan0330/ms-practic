@@ -1,0 +1,17 @@
+.externalLink {
+	position: relative;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	padding: 4px 8px;
+	color: var(--text);
+	font-size: 18px;
+	font-family: var(--font-fira-code), var(--font-noto-sans);
+	border: 2px solid var(--accent);
+	border-radius: 8px;
+	background-color: var(--background);
+}
+
+.externalLink:hover {
+	border-color: var(--orange);
+}

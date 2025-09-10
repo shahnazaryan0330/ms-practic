@@ -1,0 +1,14 @@
+.button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 24px;
+    border-radius: 12px;
+    color: var(--second-text);
+    background-color: var(--foreground);
+}
+
+.button:hover {
+    color: var(--text);
+    box-shadow: var(--box-shadow);
+}
